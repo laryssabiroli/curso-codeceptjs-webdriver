@@ -8,8 +8,9 @@
 git clone https://github.com/laryssabiroli/curso-codeceptjs-webdriver.git
 
 ```
+```
 npm install
-
+```
 
 
 ### Rodar testes
