@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628555170765' stop='1628555203405'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1628555178468' status='passed' stop='1628555201602'>
+            <name>Validate Empty Email on Create Account</name>
+            <title>Validate Empty Email on Create Account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1628555197505' status='passed' stop='1628555199920'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".login"' source='f7887c11-cbbd-4e28-adc9-9eb95ea1f20b-attachment.png' type='image/png' size='104686'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628555199920' status='passed' stop='1628555200480'>
+                    <name>I click "#SubmitCreate"</name>
+                    <title>I click "#SubmitCreate"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "#SubmitCreate"' source='6130173f-e467-41a3-a054-6c928b0859d3-attachment.png' type='image/png' size='104526'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628555200480' status='passed' stop='1628555201602'>
+                    <name>I see "Invalid email address."</name>
+                    <title>I see "Invalid email address."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Invalid email address."' source='ce02a485-67fa-4f49-abc1-dd3d4906f35d-attachment.png' type='image/png' size='106843'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "/"' source='db9bb867-f152-472a-b8c3-ee02b2950320-attachment.png' type='image/png' size='2882501'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

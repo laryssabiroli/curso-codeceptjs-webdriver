@@ -1,0 +1,246 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-06T00:46:46.936Z",
+    "end": "2021-08-06T00:47:32.934Z",
+    "duration": 45998,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "778ff343-cbe1-435a-ac1e-6c084439e711",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ef132972-89e5-41b1-81c6-a9dda369db71",
+          "title": "Login",
+          "fullFile": "C:\\Users\\dell 5450\\OneDrive\\Documentos\\Automacao_CodeceptJS\\steps\\login_test.js",
+          "file": "\\steps\\login_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Login\"",
+              "fullTitle": "Login \"before all\" hook: codeceptjs.beforeSuite in \"Login\"",
+              "timedOut": false,
+              "duration": 13615,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "3692c81d-cedc-4ee4-9272-de5d92bcc8af",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before all\" hook: BeforeSuite in \"Login\"",
+              "fullTitle": "Login \"before all\" hook: BeforeSuite in \"Login\"",
+              "timedOut": false,
+              "duration": 28,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Antes de tudo')",
+              "err": {},
+              "uuid": "4f20c9e5-96b8-418a-b464-88ba9429324f",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Login\"",
+              "fullTitle": "Login \"before each\" hook: codeceptjs.before in \"Login\"",
+              "timedOut": false,
+              "duration": 16083,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "b28d9b26-ac1b-4a3e-89e4-57127b487122",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: Before in \"Login\"",
+              "fullTitle": "Login \"before each\" hook: Before in \"Login\"",
+              "timedOut": false,
+              "duration": 8543,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I.amOnPage('/') \n    // limpar do scenario exemplo e deixar aqui, ex. pois o começo será igual",
+              "err": {},
+              "uuid": "3375b294-f916-4969-86f2-b69478056ff9",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: AfterSuite in \"Login\"",
+              "fullTitle": "Login \"after all\" hook: AfterSuite in \"Login\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Depois de tudo')",
+              "err": {},
+              "uuid": "655781f9-bf11-47a6-a510-d4ef10c5d392",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Login\"",
+              "fullTitle": "Login \"after all\" hook: codeceptjs.afterSuite in \"Login\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "27b9c61f-1ead-4635-969f-69558a56c9b3",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: After in \"Login\"",
+              "fullTitle": "Login \"after each\" hook: After in \"Login\"",
+              "timedOut": false,
+              "duration": 6,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('After')",
+              "err": {},
+              "uuid": "8a6b3d26-cf04-4c25-be93-1c571a613c69",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Login\"",
+              "fullTitle": "Login \"after each\" hook: finalize codeceptjs in \"Login\"",
+              "timedOut": false,
+              "duration": 3082,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "4f69f4d1-59ae-4129-934c-889afe926efc",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Validate Empty Email on Create Account",
+              "fullTitle": "Login: Validate Empty Email on Create Account",
+              "timedOut": false,
+              "duration": 4530,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n     //I.amOnPage('/') \n     //colocar no before por exemplo, caso tenha algum outro scenario que use mesmo comando.\n     //pause()   //para debugar\n     I.click('.login')\n     I.click('#SubmitCreate')\n     I.see('Invalid email address.')",
+              "err": {},
+              "uuid": "e487f6db-af6b-4d57-abc8-80df1396d0f3",
+              "parentUUID": "ef132972-89e5-41b1-81c6-a9dda369db71",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e487f6db-af6b-4d57-abc8-80df1396d0f3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4530,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {},
+      "version": "5.2.0"
+    }
+  }
+}

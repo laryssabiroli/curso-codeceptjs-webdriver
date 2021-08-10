@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628212871818' stop='1628212905535'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1628212879936' status='passed' stop='1628212903589'>
+            <name>Validate Empty Email on Create Account</name>
+            <title>Validate Empty Email on Create Account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1628212899820' status='passed' stop='1628212901763'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628212901764' status='passed' stop='1628212902107'>
+                    <name>I click "#SubmitCreate"</name>
+                    <title>I click "#SubmitCreate"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628212902108' status='passed' stop='1628212903589'>
+                    <name>I see "Invalid email address."</name>
+                    <title>I see "Invalid email address."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

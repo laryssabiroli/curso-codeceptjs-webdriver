@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628555132325' stop='1628555141362'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1628555141338' status='failed' stop='1628555141338'>
+            <name>BeforeSuite of suite Login: failed.</name>
+            <title>BeforeSuite of suite Login: failed.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>cpfNAme is not defined</message>
+                <stack-trace>ReferenceError: cpfNAme is not defined
+                    at Context.&lt;anonymous> (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\steps\login_test.js:7:14)
+                    at Context.&lt;anonymous> (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\codeceptjs\lib\scenario.js:153:10)
+                    at callFnAsync (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\mocha\lib\runnable.js:386:21)
+                    at Hook.Runnable.run (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\mocha\lib\runnable.js:330:7)
+                    at next (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\mocha\lib\runner.js:454:10)
+                    at cbHookRun (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\mocha\lib\runner.js:495:7)
+                    at done (C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\mocha\lib\runnable.js:302:5)
+                    at C:\Users\dell 5450\OneDrive\Documentos\Automacao_CodeceptJS\node_modules\mocha\lib\runnable.js:363:11
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
